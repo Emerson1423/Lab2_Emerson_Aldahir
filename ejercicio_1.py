@@ -67,8 +67,6 @@ while Menu < 3:
                     break  # Si se ingresa un valor numérico válido, salimos del bucle
                    except ValueError:
                     print("Error: el año debe ser numerico. Por favor, intente de nuevo.")
-                edad = int(input("Ingrese la edad del perro (en años): "))
-                peso = float(input("Ingrese el peso del perro (en kg): "))
                 perro = Veterinaria(nombre, raza, edad, peso)
                 perros.append(perro)
                 otro = input("¿Desea ingresar otro perro? (s/n): ")
